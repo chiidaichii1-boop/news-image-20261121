@@ -486,7 +486,7 @@ def draw_lead(x, y, w, h):
         tx, y + 44 + n * 32 + 10, 2, w - 432, 18, DARK)
     rect(tx, y + h - 34, w - 432, 2, LIGHT_GREY)
     draw_text("REPORTED SATURDAY 21 NOVEMBER 2026  -  CNN",
-              tx, y + h - 26, 1, GREY)
+              tx, y + h - 26, 2, GREY)
 
 
 def draw_markets(x, y, w, h):
